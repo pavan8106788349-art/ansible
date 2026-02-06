@@ -1,0 +1,75 @@
+<!-- Student Object -->
+<students>
+   <student>
+     <FIRSTNAME></RAMESH></FIRSTNAME>
+     <DOB-1999-01-01></DOB>
+     <Email>Pavan8106788349@gmail.com</Email>
+     <!-- <Address>104 gandhi apartments hyderabad</Address> -->
+     <!-- <Address>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </Address> -->
+        <Addresses>
+          <PermAddress>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </PermAddress>
+          <CurrentAddress>
+           <FLATNumber>104</FLATNumber>
+           <Street>Gandhi Nagar</Street>
+           <city>hyderabad</city> 
+           </CurrentAddress>
+        </Adresses>
+   <student>
+
+    <student>
+     <FIRSTNAME></SURESH></FIRSTNAME>
+     <DOB-1999-01-01></DOB>
+     <Email>Pavan8106788349@gmail.com</Email>
+     <!-- <Address>104 gandhi apartments hyderabad</Address> -->
+     <!-- <Address>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </Address> -->
+        <Addresses>
+          <PermAddress>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </PermAddress>
+          <CurrentAddress>
+           <FLATNumber>104</FLATNumber>
+           <Street>Gandhi Nagar</Street>
+           <city>hyderabad</city> 
+           </CurrentAddress>
+        </Adresses>
+   <student>
+
+   <student>
+     <FIRSTNAME></NARESH></FIRSTNAME>
+     <DOB-1999-01-01></DOB>
+     <Email>Pavan8106788349@gmail.com</Email>
+     <!-- <Address>104 gandhi apartments hyderabad</Address> -->
+     <!-- <Address>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </Address> -->
+        <Addresses>
+          <PermAddress>
+          <FLATNumber>104</FLATNumber>
+          <Street>Gandhi Nagar</Street>
+          <city>hyderabad</city> 
+          </PermAddress>
+          <CurrentAddress>
+           <FLATNumber>104</FLATNumber>
+           <Street>Gandhi Nagar</Street>
+           <city>hyderabad</city> 
+           </CurrentAddress>
+        </Adresses>
+   <student>   
+  
+  

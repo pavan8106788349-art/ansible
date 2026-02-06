@@ -1,0 +1,31 @@
+- name: "Sivakumar Reddy"
+  dob: "1999-01-01"
+  mobileNumber: 1234567890
+  addresses:
+  - flatNumber: 1o4
+    street: "gandhi nagar"
+    city: hyderabad
+    type: current
+
+  - flatNumber: 1o4
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
+
+- name: "Sivakumar Reddy"
+  dob: "1999-01-01"
+  mobileNumber: 1234567890
+  addresses:
+  - flatNumber: 1o4
+    street: "gandhi nagar"
+    city: hyderabad
+    type: current
+
+  - flatNumber: 1o4
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
+
+
+
+
