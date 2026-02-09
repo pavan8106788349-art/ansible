@@ -4,9 +4,9 @@
     vars:
       topics: linux, shell, ansible, terraform
     tags:
-      Name: ansible
-      project: roboshop
-      component: catalogue
+       name: ansible
+       project: roboshop
+       component: catalogue
     tasks:
     - name: greeting
       ansible.builtin.debug:
