@@ -3,7 +3,7 @@
   connection: local
   vars:
    ANSIBLE_SESSIONS : 7
-  taks:
+  tasks:
   - name: is ansible more than 5 sessions 
     ansible.buildin.debug:
       msg: "Yes more than 5 sessions"
