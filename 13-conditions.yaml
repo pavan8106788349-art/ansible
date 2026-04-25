@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-   ANSIBLE_SESSIONS = 7
+   ANSIBLE_SESSIONS : 7
   taks:
   - name: is ansible more than 5 sessions 
     ansible.buildin.debug:
