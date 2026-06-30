@@ -1,4 +1,3 @@
-
 * name: variable preference
   hosts: local
   connection: local
@@ -23,5 +22,6 @@
     NAME: "ANSIBLE from TASK"
     ansible.builtin.debug:
     msg: "Hi {{ NAME }}"
+
 
 
