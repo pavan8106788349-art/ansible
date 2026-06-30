@@ -1,6 +1,6 @@
 
 - name: demo on conditions
-  hosts: local
+  hosts: Local
   connection: local
   Vars:
     IS_LIVE: true
