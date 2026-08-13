@@ -15,4 +15,3 @@
   - name: printinfo
     ansible.builtin.debug:
       msg: "username is {{ username }}, password is {{ password }}"  
-
