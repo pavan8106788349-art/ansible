@@ -6,10 +6,12 @@
     COURSE: "Devops with AWS"
     DURATION: "140HRS"
     TRAINER: "Sivakumar Reddy"
-  tasks:
-  - name: print variables
-    vars:
-      COURSE: "Devops with AWS"
-      DURATION: "140HRS"
-      TRAINER: "Sivakumar Reddy
 
+  tasks:
+    - name: print variables
+      vars:
+        COURSE: "Devops with AWS"
+        DURATION: "140HRS"
+        TRAINER: "Sivakumar Reddy"
+      ansible.builtin.debug:
+        msg: "Course: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"
