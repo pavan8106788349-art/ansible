@@ -7,9 +7,9 @@
   - name: install package
     ansible.builtin.package:
       name: "{{ item.name }}"
-      state: present
-    loop:
-    - { name:"mysql", state:"absent" }
+      state: "{{ item.state }}"
+    loop: # list of map
+    - { name:"mysql", state:"absent" } # map/dict
     - { name:"nginx", state:"present" }
     - { name:"mysql", state:"present" }
 
