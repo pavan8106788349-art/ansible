@@ -5,11 +5,10 @@
 
   vars:
     topics: "linux,shell,ansible,terraform"
-
-  tags:
-    Name: ansible 
-    project: roboshop
-    component: catalogue 
+    app_tags:
+      Name: ansible
+      project: roboshop
+      component: catalogue
 
   tasks:
     - name: greeting
@@ -22,4 +21,5 @@
 
     - name: convert map to list
       ansible.builtin.debug:
-        msg: "{{ tags | dic2items }}"    
+        msg: "{{ app_tags | dict2items }}"
+   
